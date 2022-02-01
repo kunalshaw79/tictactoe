@@ -1,0 +1,52 @@
+
+    *{
+        text-transform: capitalize;
+    }
+    #wish{
+        width: 200px;
+        position: absolute;
+        z-index: 5;
+        margin:-10% 45% 10%;
+        display: none;
+        border-radius: 50%;
+    }
+    body{
+       margin: 0px;
+    }
+    h2,h4{
+        display: inline-block;
+    }
+    th{
+        height: 50px;
+        width: 50px;
+    }
+    table{
+        justify-self: center;
+        margin: auto;
+        height: 300px;
+        width: 300px;
+        background-color: rgba(203, 224, 201, 0.288);
+        backdrop-filter: blur(15px);
+        
+    }
+    th:hover{
+        box-shadow: 10px rgb(53, 55, 58);
+        /* transform: scale(1.2); */
+        background-image: linear-gradient(rgba(245, 205, 28, 0.445),rgba(255, 78, 24, 0.493));
+    }
+    .row{
+        margin: 5px;
+        background-color: rgba(185, 199, 219, 0.637);
+        backdrop-filter: blur(10px);
+        border-collapse: collapse;
+    }
+    .container{
+        background-image: url("back12.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 80vh;
+    }
+    .row:active {
+  box-shadow: 5px 5px 8px rgb(83, 78, 78);
+  transform: translateY(4px);
+}

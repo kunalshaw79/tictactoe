@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+</head>
+<link rel="icon" href="https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/c3942550783f954de418d4e4e3146386.jpeg">
+<link rel="stylesheet" href="tic.css">
+<body>
+    <div class="container">
+    <h1 style="text-align: center;"> tic-tac-toe</h1>
+    <hr>
+   <center> <h4>It's <h2><p id="change">. X .</p></h2>turn</h4></center>
+   <img src="giphy.gif" id="wish" alt="hola">
+    <table>
+        <tr class="row1">
+            <th class="row" id="a1"></th>
+            <th class="row" id="a2"></th>
+            <th class="row" id="a3"></th>
+            
+        </tr>
+        <tr class="row2">
+            <th class="row" id="a4"></th>
+            <th class="row" id="a5"></th>
+            <th class="row" id="a6"></th>
+        </tr>
+        <tr class="row3">
+            <th class="row" id="a7"></th>
+            <th class="row" id="a8"></th>
+            <th class="row" id="a9"></th>
+        </tr>
+    </table>
+    </div>
+
+    <center><h1><p id="winner"></p></h1>
+
+        <button onclick=mute()>Mute</button>
+        <button onclick=play()>play sound</button>
+        <button onclick=restart()>restart</button></center>
+</body>
+<script src="tic_algo.js"></script>
+</html>
